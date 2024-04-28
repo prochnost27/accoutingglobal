@@ -1,0 +1,49 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import BaseCard from "../components/BaseCard.astro";
+import FriendCard from "../components/page/FriendCard.astro";
+---
+
+<!doctype html>
+<BaseLayout PageID="friend">
+  <BaseCard title="Friend">
+    <h1 id="h1">Integrantes</h1>
+    <hr />
+    <div class="grid grid-cols-2 gap-4">
+      <FriendCard
+        title="Genesis Gonzales"
+        desc=""
+        img="https://www.saroprock.com/profile.webp"
+      />
+      <FriendCard
+        title="Darwin Acabal"
+        desc=""
+        img="https://ooo.0x0.ooo/2023/10/28/ONobPG.jpg"
+      />
+      <FriendCard
+        title="Marcos Munrayos"
+        img="https://www.saroprock.com/profile.webp"
+        desc=""
+        badge=""
+      />
+      <FriendCard
+        title="Keyli Sagaastume"
+        img="https://s1.ax1x.com/2023/07/06/pC6Z3hd.jpg"
+        desc=""
+        badge=""
+      />
+      <FriendCard
+        title="David Barrera"
+        img="https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg"
+        desc=""
+        badge=""
+      />
+      <FriendCard
+        title="Cristel Morales"
+        img="https://bu.dusays.com/2022/12/28/63ac2812183aa.png"
+        desc=""
+        badge=""
+      />
+    </div></BaseCard
+  >
+</BaseLayout>

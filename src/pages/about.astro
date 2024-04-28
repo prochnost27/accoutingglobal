@@ -1,0 +1,74 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import BaseCard from "../components/BaseCard.astro";
+import TimeLine from "../components/page/TimeLine.astro";
+---
+
+<!doctype html>
+<BaseLayout PageID="about">
+  <BaseCard title="About Frosti">
+    <h1 id="h1">Servicios</h1>
+    <hr />
+    <h2 id="h2">¿En que nos especializamos?</h2>
+    <p>
+      En nuestra empresa, nos especializamos en ofrecer soluciones contables personalizadas y de alta calidad para una amplia gama de clientes, desde pequeñas empresas hasta corporaciones multinacionales. Nuestra experiencia abarca áreas clave como asesoramiento fiscal, contabilidad para PYMES, auditoría interna, gestión de nóminas, consultoría financiera y análisis de costos. Nos comprometemos a proporcionar un servicio excepcional centrado en el cliente, adaptado a las necesidades específicas de cada cliente y diseñado para impulsar su éxito financiero a largo plazo.
+    </p>
+    <h2 id="h2">Puedes adquirir los siguentes servicios</h2>
+    <ul class="timeline timeline-vertical">
+      <li>
+        <TimeLine time="Q.7,500.00" left="true" check="true">
+          Glamour.</TimeLine
+        >
+        <hr class="bg-primary" />
+      </li>
+      <li>
+        <hr class="bg-primary" />
+        <TimeLine time="Q.10,000.00" check="true">
+          Brillantez.</TimeLine
+        >
+        <hr class="bg-primary" />
+      </li>
+      <li>
+        <hr class="bg-primary" />
+        <TimeLine time="Q.15,000.00" left="true" check="true">
+          Élite.</TimeLine
+        >
+        <hr class="bg-primary" />
+      </li>
+      <li>
+        <hr class="bg-primary" />
+        <TimeLine time=" Q.20,000.00" check="true">
+          Excelencia.</TimeLine
+        >
+        <hr class="bg-primary" />
+      </li>
+      <li>
+        <hr class="bg-primary" />
+        <TimeLine time="Q.25,000.00" left="true" check="true">
+          Prestigio.</TimeLine
+        >
+        <hr class="bg-primary" />
+      </li>
+      <li>
+        <hr class="bg-primary" />
+        <TimeLine time="Q.30,000.00" check="true">
+          Lujo.</TimeLine
+        >
+        <hr class="bg-primary" />
+      </li>
+      <li>
+        <hr class="bg-primary" />
+        <TimeLine time=" Q.40,000.00" left="true" check="true">
+          Elegancia.</TimeLine
+        >
+        <hr class="bg-neutral-content" />
+      </li>
+      <li>
+        <hr class="bg-neutral-content" />
+        <TimeLine time=" Q.50,000.00"> Privilege.</TimeLine>
+      </li>
+    </ul>
+  </BaseCard>
+</BaseLayout>
+
+<style></style>
